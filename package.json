@@ -4,12 +4,12 @@
   "description": "Full-stack video streaming app with chat using Stream SDK",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "npm run start --prefix backend",
-    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
-    "lint": "npm run lint --prefix frontend"
+    "build": "npm install --prefix BACKEND && npm install --prefix FRONTEND && npm run build --prefix FRONTEND",
+    "start": "npm run start --prefix BACKEND",
+    "dev": "concurrently \"npm run dev --prefix BACKEND\" \"npm run dev --prefix FRONTEND\"",
+    "lint": "npm run lint --prefix FRONTEND"
   },
-  "author": "Pravallika091",
+  "author": "rohitha",
   "license": "ISC",
   "keywords": [],
   "devDependencies": {
